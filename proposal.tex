@@ -1,0 +1,175 @@
+\documentclass[12pt]{report} % Article with 12pt font
+\usepackage{enumitem}
+% listing for code snippets
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+\usepackage{amsmath} % for 'bmatrix' environment
+
+% Set font to Times
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+
+% Double spacing
+\usepackage{setspace}
+\doublespacing
+
+% Paper size and margins
+\usepackage[letterpaper, margin=1in]{geometry}
+
+% Float placement control
+\usepackage{float}
+\usepackage[]{placeins}
+
+% Special symbols
+\usepackage{gensymb}
+
+% Extra math notation
+\usepackage{amsmath,amssymb}
+\usepackage{algpseudocode}
+% Include graphics
+\usepackage{graphicx}
+
+% sub-figures with sub-labels
+\usepackage{subcaption}
+
+% Number tables with Roman numerals
+\renewcommand{\thetable}{\Roman{table}}
+% \pagenumbering{gobble}
+% Section header formatting
+\usepackage{sectsty}
+\sectionfont{\bfseries \LARGE}
+\subsectionfont{ \large}
+\subsubsectionfont{\underline\normalfont\normalsize}
+\usepackage[]{diffcoeff}
+\usepackage[letterpaper, margin=1in]{geometry}
+\begin{document}
+\section*{Introduction}
+The goal of my intended project is to use simplified physics to simulate performance of an high-speed aircraft. An unguided hypersonic glide vehicle (HGV), will be used as the exemplar case to implement
+shape optimization. HGVs are vehicles that travel in excess of 5 times the speed of sound and due to their high speeds experience extreme temperatures. As a result, highly accurate simulations 
+of the physics at these conditions requires solving the set of non-linear compressible Navier-Stokes (NS) equations with additional source terms for chemical reactions. Solving these set of equations requires
+discretizing a fluid domain and applying a stencil to reconstruct fluxes on the 3D grid. This incurs a huge computational cost and is cost prohibitive for most applications in design and optimization. Instead,
+simplified physics models are used for initial design work such as Newtonian aerodynamics (NA). Therefore, in this proposal i will seek to implement NA in shape optimization of HGVs to gain underlining 
+performance metrics for a given vehicle design. The goal is to gain significant speed up to allow for rapid design of a parameter space for vehicle performance. 
+
+\section*{Description}
+The goal is to use a RL algorithm to preform guidance on an HGV such that $\gamma =0$.
+
+As part of this task the simulated environment will be offloaded on the GPU for speed-ups vs the serial code. 
+
+
+\subsection*{Step 1: Simulation}
+A geometry will be tessellated into several hundred-thousand triangles. 
+
+From which NA will be applied to compute the forces:
+
+\begin{algorithmic}
+    \State $N =$ number of triangles elements
+    \Procedure{NA}{$\alpha$} %\Comment{The g.c.d. of a and b}
+        \State $i \gets 1$
+    \State $\hat{v} =\{\cos(\alpha),sin(\alpha),0\} $
+    \State Forces =$\{0,0,0\} $
+    \While{$i \leq N$}
+    \If{$(\hat{v} \cdot \hat{n}_i) < 0$}
+        \State  ${cp}_i = 2 \left(\hat{v} \cdot \hat{n}_i\right)^2$
+    \Else
+        \State  ${cp}_i = 0$ \Comment{Flow is hidden from this surface}
+    \EndIf
+    \State  $P_i=({cp}_i \cdot q)+P_{\infty}$
+    \State  $F = F + (P_i \cdot A_i)\cdot(-\hat{n}_i) $\Comment{$A_i$  computed from cross product}
+    \State $i \gets i+1$
+    \EndWhile
+    \State  $D=F(2)\sin(\alpha)+F(1)\cos(\alpha)$
+    \State  $L=F(2)\cos(\alpha)-F(1)\sin(\alpha)$
+    \EndProcedure
+\end{algorithmic}
+Once we have the forces in terms of lift ($L$) and drag ($D$), we can compute performance metrics such as max distance using 
+ordinary differential equations (ODE's) for the equation of motions. The equation of motion for a lifting surface on a spherical earth
+is as follows:
+\begin{equation}
+    \frac{\partial}{\partial t}
+    \begin{bmatrix}
+        \gamma \\
+        V \\
+        x \\
+        h 
+    \end{bmatrix} =
+    \begin{bmatrix}
+        \frac{1}{V} \left[\frac{L}{m}+g \cos(\gamma)-\frac{V^2}{R} \cos(\gamma)\right] \\
+        \frac{D}{m}+ g\sin(\gamma)\\
+        -V\cos(\gamma) \\
+        -V\sin(\gamma)
+    \end{bmatrix}
+        \end{equation}
+We then integrate the equation of motion listed above with a standard RK-4 method to arrive at a new state.
+
+The goal is to record these trajectories under a given policy $\pi$ then preform policy improvement to select an $\alpha$ that will make $\dot{\gamma} = 0$.
+
+\subsubsection*{GPU kernels}
+The following kerenel will need to be done to implement the following in CUDA C:
+\begin{enumerate}
+    \item A kerenel to compute L,D from the NA algorithm.
+    \item A kerenel to reduce the L,D to a scalar value within the NA algorithm. 
+    \item A kerenel to take the reduced L,D and preform RK-4 integrate.
+    \item A kerenel to take the new states and record to a file output.
+\end{enumerate}
+Algorithmicaly this can shown as:
+\begin{algorithmic}
+    \State $S_0 = \{\gamma_0,v_0,x_0,h_0\}$
+    \While{s is feasible}
+    \State NA kernel
+    \State RK-4 kernel 
+    \State I/O kernel 
+    \EndWhile
+\end{algorithmic}
+
+Future goals would to solve the full PDE for the compressible NS equations on the GPU. However, this in my opinion is too ambitious for the given time. If 
+you have an open source code we can work from that's numerically stable and has implicit time integration so that run times for a single trajectory aren't more than 48 
+hours then let me know! 
+\section*{Resources and contact}
+I can provide explanations and examples. If you work in controls or want to help in any way reach out to the following:
+\begin{enumerate}
+    \item email: will7322@umn.edu
+    \item phone: 478-251-2267
+\end{enumerate}
+\newpage
+\section*{Appendix}
+\begin{figure}[hbt!]
+    \begin{subfigure}[b]{0.6\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_76km.png}
+      \caption{ vel = 5km/s,  alt=76.2 km,   $\alpha$=20.05}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.6\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_60km.png}
+      \caption{ vel = 5km/s,  alt=60.0 km,   $\alpha$=20.05}
+    \end{subfigure}
+\end{figure}
+\end{document}

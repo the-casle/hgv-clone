@@ -1,0 +1,469 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2022.5.27)  14 NOV 2023 16:39
+entering extended mode
+**"c:/Users/darryl williams/Documents/2023/cuda/project/proposal.tex"
+(c:/Users/darryl williams/Documents/2023/cuda/project/proposal.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01> (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@chapter=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks16
+\labelindent=\skip49
+\enit@outerparindent=\dimen139
+\enit@toks=\toks17
+\enit@inbox=\box50
+\enit@count@id=\count191
+\enitdp@description=\count192
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+\lst@mode=\count193
+\lst@gtempboxa=\box51
+\lst@token=\toks19
+\lst@length=\count194
+\lst@currlwidth=\dimen140
+\lst@column=\count195
+\lst@pos=\count196
+\lst@lostspace=\dimen141
+\lst@width=\dimen142
+\lst@newlines=\count197
+\lst@lineno=\count198
+\lst@maxwidth=\dimen143
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count199
+\lst@skipnumbers=\count266
+\lst@framebox=\box52
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen144
+)) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count267
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count268
+\leftroot@=\count269
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count270
+\DOTSCASE@=\count271
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count272
+\c@MaxMatrixCols=\count273
+\dotsspace@=\muskip16
+\c@parentequation=\count274
+\dspbrk@lvl=\count275
+\tag@help=\toks21
+\row@=\count276
+\column@=\count277
+\maxfields@=\count278
+\andhelp@=\toks22
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks23
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks27
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count282
+\float@exts=\toks28
+\float@box=\box55
+\@float@everytoks=\toks29
+\@floatcapt=\box56
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/was\gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
+Package: algpseudocode 
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count283
+\c@ALG@rem=\count284
+\c@ALG@nested=\count285
+\ALG@tlm=\skip53
+\ALG@thistlm=\skip54
+\c@ALG@Lnr=\count286
+\c@ALG@blocknr=\count287
+\c@ALG@storecount=\count288
+\c@ALG@tmpcounter=\count289
+\ALG@tmplength=\skip55
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen163
+\captionmargin@=\dimen164
+\captionwidth=\dimen165
+\caption@tempdima=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count290
+\c@continuedfloat=\count291
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+)
+\c@subfigure=\count292
+\c@subtable=\count293
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/diffcoeff\diffcoeff.sty (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-06-01 L3 programming layer (loader) 
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count294
+\l__pdf_internal_box=\box57
+)) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2021-06-01 L3 Experimental document command parser
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xtemplate.sty
+Package: xtemplate 2021-06-01 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen170
+\l__xtemplate_tmp_int=\count295
+\l__xtemplate_tmp_muskip=\muskip17
+\l__xtemplate_tmp_skip=\skip56
+)
+Package: diffcoeff 2022/06/14 v4.1 Write differential coefficients consistently and easily.
+\l__diffcoeff_spaced_int=\count296
+\l__diffcoeff_vars_int=\count297
+\l__diffcoeff_format_int=\count298
+\l__diffcoeff_curr_tok_int=\count299
+\l__diffcoeff_curr_state_int=\count300
+\l__diffcoeff_nos_int=\count301
+\l__diffcoeff_parenvar_int=\count302
+
+Package xtemplate Info: Declaring object type 'derivative' taking 3
+(xtemplate)             argument(s) on line 62.
+
+\l__diffcoeff_oporder_muskip=\muskip18
+\l__diffcoeff_derivsep_muskip=\muskip19
+\l__diffcoeff_varsep_muskip=\muskip20
+\l__diffcoeff_sep_adj_muskip=\muskip21
+\l__diffcoeff_elbowrm_muskip=\muskip22
+\l__diffcoeff_subnudge_muskip=\muskip23
+\l__diffcoeff_derivsepi_muskip=\muskip24
+\l__diffcoeff_opnudge_muskip=\muskip25
+\l__diffcoeff_derivsepii_muskip=\muskip26
+\l_tmpc_muskip=\muskip27
+\l_tmpd_muskip=\muskip28
+\l__diffcoeff_derivsepiii_muskip=\muskip29
+)
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 72.
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+) (proposal.aux)
+\openout1 = `proposal.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+\c@lstlisting=\count303
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count304
+\scratchdimen=\dimen171
+\scratchbox=\box58
+\nofMPsegments=\count305
+\nofMParguments=\count306
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count307
+\MPscratchDim=\dimen172
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
+\everyMPtoPDFconversion=\toks31
+) (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \celsius on input line 72.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 72.
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 72.
+Package gensymb Info: Using \upOmega for \ohm on input line 72.
+
+Package gensymb Warning: Not defining \micro.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 82.
+(C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 82.
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 82.
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 82.
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 82.
+ (C:\Users\darryl williams\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+ [1
+
+{C:/Users/darryl williams/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] [3] [4]
+<./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_76km.png, id=23, 650.43pt x 1084.05pt>
+File: ./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_76km.png Graphic file (type png)
+<use ./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_76km.png>
+Package pdftex.def Info: ./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_76km.png  used on input line 166.
+(pdftex.def)             Requested size: 281.85587pt x 469.7715pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+<./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_60km.png, id=25, 650.43pt x 1084.05pt>
+File: ./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_60km.png Graphic file (type png)
+<use ./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_60km.png>
+Package pdftex.def Info: ./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_60km.png  used on input line 171.
+(pdftex.def)             Requested size: 281.85587pt x 469.7715pt.
+
+Overfull \hbox (96.23674pt too wide) in paragraph at lines 164--174
+[][] [] 
+ []
+
+[5 <./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_76km.png> <./../../../grad_school/research_update/08-30-23/images/pre_lim/compare_CFD_NA_5km_60km.png>] (proposal.aux) ) 
+Here is how much of TeX's memory you used:
+ 8137 strings out of 478864
+ 130564 string characters out of 2843884
+ 448390 words of memory out of 3000000
+ 25917 multiletter control sequences out of 15000+600000
+ 458513 words of font info for 116 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 67i,8n,77p,337b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/darryl williams/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/darryl williams/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/darryl williams/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/darryl williams/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/darryl williams/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/darryl williams/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/darryl williams/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/darryl williams/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/darryl williams/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/darryl williams/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on proposal.pdf (5 pages, 522601 bytes).
+PDF statistics:
+ 69 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,51 @@
+https://engineering.purdue.edu/DeepLearn/pdf-kak/Reinforcement.pdf
+
+- [ ] Make code more beautiful
+- [ ] Create presentation
+- [ ] Adjust params
+	- dt
+	- y0
+	- Rewards etc.
+
+Run 2: 1000 Eps, Gamma = 0.8, Minibatch = 64
+Run 3: 100 Eps, Gamma = 0.95, Minibatch = 4
+	reward = - (180/np.pi * self.y[0]) ** 2 + self.y[3]
+        if self.y[1] < 1e3 or self.y[2] < 1e3 or self.y[2] > 200e3: 
+            	done = True
+        if done:
+            reward = -1e5
+            if self.y[3] < 1e3:
+                reward += -1e5
+Run 4: split is 35, 65, 10
+	reward = self.y[3]
+	dt = 0.1
+	500 eps
+Run 5: Split is 25, 65, 10
+	if self.y[2] < 1e3
+            done = True
+	dt = 0.5
+	250 eps, minibatch 32
+	reward = -np.abs(180/np.pi * self.y[0])
+	% Ended too early idk why
+Run 6: Added randomness to initial condition
+	if self.y[1] < 1e3 or self.y[2] > 85e3 or self.y[4] < -np.pi or self.y[4] > np.pi:
+	100 eps minibatch 8, gamma = 0.9
+	removed self.reset()
+Run 8:
+
+Run 9: 0.5, 0.5, 100, 25 minibatch
+
+-----------------------------------------------------------------
+Applied Project: In the final report you should introduce the problem you solved and the techniques used to solve the problem. If multiple algorithms were used compare the performance of the different algorithms. If possible show how the algorithms perform (accuracy and computation time) as the size of the problem increases. If relevant show how your solutions methods perform if the model is not accurately specified. Discuss any insights you have gained about your problem as well as any insights about the best solution algorithm. Include a discussion of potential shortcomings of your solution or problem formulation and how you can improve these things. In addition, discuss possible extensions of your work.
+----------------------------------------------------------------
+Methodology:
+
+Results:
+
+
+Discussions:
+
+Conclusions:
+
+
+
